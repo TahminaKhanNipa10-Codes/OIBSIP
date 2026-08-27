@@ -36,7 +36,7 @@ This repository contains all the tasks I completed during my **Web Development I
 A visually stunning, fully responsive landing page for a luxury car dealership. Built with pure HTML and CSS, featuring an auto-sliding image carousel, smooth scrolling, and an elegant dark theme.
 
 <p align="center">
-  <img src="screenshots/desktop.png" alt="Desktop View" width="80%">
+  <img src="screenshots/desktop.jpeg" alt="Desktop View" width="80%">
 </p>
 
 ---
