@@ -88,7 +88,7 @@ A visually stunning, fully responsive landing page for a luxury car dealership. 
 | **Font Awesome** | Icons |
 
 ---
-
+<!--
 ### 📸 Screenshots
 
 <p align="center">
@@ -97,7 +97,7 @@ A visually stunning, fully responsive landing page for a luxury car dealership. 
   <img src="screenshots/mobile.png" alt="Mobile View" width="45%">
   <img src="screenshots/carousel.png" alt="Carousel View" width="45%">
 </p>
-
+-->
 ---
 
 ### 🌐 Live Demo
