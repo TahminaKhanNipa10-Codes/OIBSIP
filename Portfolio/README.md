@@ -3,7 +3,7 @@
 A cinematic, highly responsive personal developer portfolio showcasing my skills, projects, and professional background, built to fulfill the Web Development & Designing Level 1 requirement for the Oasis Infobyte SIP.
 
 ## 🚀 Live Demo
-*(Update this with your GitHub Pages link or video demo link)*
+
 [Click here to view the live portfolio](#) 
 
 ## 🛠️ Tech Stack
