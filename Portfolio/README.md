@@ -1,6 +1,6 @@
 # Level 1, Task 2 - Personal Portfolio
 
-A cinematic, highly responsive personal developer portfolio showcasing my skills, projects, and professional background, built to fulfill the Web Development & Designing Level 1 requirement for the Oasis Infobyte SIP.
+A highly responsive personal developer portfolio showcasing my skills, projects, and professional background, built to fulfill the Web Development & Designing Level 1 requirement for the Oasis Infobyte SIP.
 
 ## 🚀 Live Demo
 
