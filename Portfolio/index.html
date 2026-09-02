@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tahmina Khanam | Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&family=JetBrains+Mono:wght@100;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- FULL WEBSITE BACKGROUND -->
+    <div
+      class="global-bg"
+      style="background-image: url(&quot;images/background2.png&quot;)"
+    ></div>
+    <div class="global-overlay"></div>
+
+    <!-- Cinematic UI Frame -->
+    <div class="ui-frame">
+      <div class="top-left fade-in">
+        <span class="brand">DEVELOPER PORTFOLIO</span>
+        <span class="dots">. . .</span>
+      </div>
+
+      <!-- fade-in removed to prevent mobile conflict -->
+      <nav class="top-center" id="mainNav">
+        <a href="#about"
+          ><span class="num">01</span><span class="label">ABOUT</span></a
+        >
+        <a href="#skills"
+          ><span class="num">02</span><span class="label">SKILLS</span></a
+        >
+        <a href="#projects"
+          ><span class="num">03</span><span class="label">PROJECTS</span></a
+        >
+        <a href="#contact"
+          ><span class="num">04</span><span class="label">CONTACT</span></a
+        >
+
+        <div class="mobile-socials">
+          <a href="https://github.com/TahminaKhanNipa10-Codes"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/tahminakhan-nipa/"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <a href="mailto:tahminakhannipa10@gmail.com"
+            ><i class="far fa-envelope"></i
+          ></a>
+        </div>
+      </nav>
+
+      <div class="top-right fade-in">
+        <div class="status-indicator">
+          <span class="dot"></span>
+          <div class="status-text">STATUS<br />FOCUSED</div>
+        </div>
+        <button
+          class="hamburger"
+          id="hamburger"
+          aria-expanded="false"
+          aria-controls="mainNav"
+          aria-label="Toggle navigation menu"
+        >
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+
+      <div class="right-socials fade-in">
+        <a href="https://github.com/TahminaKhanNipa10-Codes"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/tahminakhan-nipa/"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+        <a href="mailto:tahminakhannipa10@gmail.com"
+          ><i class="far fa-envelope"></i
+        ></a>
+      </div>
+    </div>
+
+    <!-- MAIN HERO SECTION -->
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <div class="side-vertical-text fade-in">
+          C O D E : &nbsp; P A S S I O N
+        </div>
+
+        <div class="main-titles fade-in">
+          <h1>I BUILD<br />DIGITAL<br />EXPERIENCES</h1>
+          <p class="subtitle">
+            Full-Stack .NET Developer | Problem Solver | Tech Enthusiast
+          </p>
+        </div>
+      </div>
+
+      <!-- EPIC ANIMATED AVATAR -->
+      <div class="hero-avatar fade-in">
+        <div class="node-avatar tilt-element">
+          <img
+            src="images/tahminaNipa.jpg"
+            alt="Tahmina Khanam"
+            onerror="
+              this.style.display = 'none';
+              this.parentElement.classList.add('img-fallback');
+            "
+          />
+          <span class="fallback-initials">TK</span>
+        </div>
+      </div>
+
+      <!-- Bottom Left Code Block -->
+      <div class="bottom-left-code fade-in">
+        <div class="code-header">&lt;/&gt; CODE</div>
+        <pre><code>function createImpact() {
+    while (passion > skill) {
+        practice();
+    }
+    return success;
+}</code></pre>
+      </div>
+
+      <!-- Bottom Right Quote -->
+      <div class="bottom-right-quote fade-in">
+        <div class="version">VERSION<br />1.0.75</div>
+        <div class="quote-box">
+          <span class="quote-mark">&ldquo;</span>
+          <p>The best way to predict<br />the future is to build it.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTENT SECTIONS -->
+    <main class="content-wrapper">
+      <section id="about" class="section-dark">
+        <div class="container">
+          <div class="section-header">
+            <span class="sec-num">01</span>
+            <h2>ABOUT ARCHITECTURE</h2>
+          </div>
+          <div class="about-grid">
+            <div class="about-text">
+              <p>
+                I am Tahmina Khanam, a software engineer specialized in
+                enterprise-grade web applications. Trained under the rigorous
+                IsDB-BISEW IT Scholarship Programme, I bring a methodical
+                approach to system architecture.
+              </p>
+              <p>
+                Bridging the gap between complex C#/ASP.NET backend
+                architectures and intuitive React/Angular frontend experiences.
+              </p>
+            </div>
+            <div class="about-stats">
+              <div class="stat">
+                <span class="gold-text">.NET</span>
+                <span>Core Backend API</span>
+              </div>
+              <div class="stat">
+                <span class="gold-text">MERN</span>
+                <span>Full Stack Expertise</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- SKILLS SECTION -->
+      <section id="skills" class="section-dark">
+        <div class="container">
+          <div class="section-header">
+            <span class="sec-num">02</span>
+            <h2>TECHNICAL ARSENAL</h2>
+          </div>
+          <div class="skills-grid">
+            <div class="skill-box">
+              <h3>BACKEND & DB</h3>
+              <ul class="skill-list">
+                <li>C# & ASP.NET MVC</li>
+                <li>RESTful Core API</li>
+                <li>Entity Framework Code-First</li>
+                <li>Node.js & Express.js</li>
+                <li>MongoDB</li>
+              </ul>
+            </div>
+
+            <div class="skill-box">
+              <h3>FRONTEND</h3>
+              <ul class="skill-list">
+                <li>React</li>
+                <li>Angular</li>
+                <li>JavaScript (ES6+)</li>
+                <li>HTML5 & CSS3</li>
+              </ul>
+            </div>
+
+            <div class="skill-box">
+              <h3>MOBILE DEV</h3>
+              <ul class="skill-list">
+                <li>Kotlin</li>
+                <li>Jetpack Compose</li>
+                <li>Java ME (J2ME)</li>
+              </ul>
+            </div>
+
+            <div class="skill-box">
+              <h3>TOOLS & TECH</h3>
+              <ul class="skill-list">
+                <li>Git & GitHub</li>
+                <li>Vite, npm, Bun</li>
+                <li>Cisco Packet Tracer</li>
+                <li>System Architecture</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="projects" class="section-dark">
+        <div class="container">
+          <div class="section-header">
+            <span class="sec-num">03</span>
+            <h2>SELECTED WORKS</h2>
+          </div>
+          <div class="project-list">
+            <!-- Project 01: ERP SYSTEM (3 Links) -->
+            <article class="proj-row">
+              <div class="proj-meta">01 / ERP SYSTEM</div>
+              <div class="proj-details">
+                <h3>SupplyChain ERP & SuperShop</h3>
+                <p>
+                  RESTful Core API, Angular admin dashboard, React user portal,
+                  JWT authentication.
+                </p>
+              </div>
+              <div style="display: flex; gap: 15px; flex-wrap: wrap">
+                <a
+                  href="https://github.com/TahminaKhanNipa10-Codes/SupplyChain-ERP-CoreAPI"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="proj-link"
+                >
+                  API <i class="fab fa-github"></i>
+                </a>
+                <a
+                  href="https://github.com/TahminaKhanNipa10-Codes/SupplyChain-ERP-AngularAdmin"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="proj-link"
+                >
+                  ADMIN <i class="fab fa-github"></i>
+                </a>
+                <a
+                  href="https://github.com/TahminaKhanNipa10-Codes/SuperShop-ERP-ReactPortal"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="proj-link"
+                >
+                  PORTAL <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </article>
+
+            <!-- Project 02: RETAIL -->
+            <article class="proj-row">
+              <div class="proj-meta">02 / RETAIL ERP</div>
+              <div class="proj-details">
+                <h3>NexusRetailERP</h3>
+                <p>
+                  ASP.NET MVC enterprise application utilizing Entity Framework
+                  Code-First and role-based access control workflows.
+                </p>
+              </div>
+              <a
+                href="https://github.com/TahminaKhanNipa10-Codes/NexusRetailERP-mvc-cf"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="proj-link"
+              >
+                GITHUB <i class="fab fa-github"></i>
+              </a>
+            </article>
+
+            <!-- Project 03: MERN E-COMMERCE -->
+            <article class="proj-row">
+              <div class="proj-meta">03 / E-COMMERCE</div>
+              <div class="proj-details">
+                <h3>MERN E-Commerce Platform</h3>
+                <p>
+                  A full-stack e-commerce solution built with MongoDB,
+                  Express.js, React, and Node.js featuring product management
+                  and secure checkout.
+                </p>
+              </div>
+              <a
+                href="https://github.com/TahminaKhanNipa10-Codes/Full-Stack-MERN-E-Commerce-Platform"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="proj-link"
+              >
+                GITHUB <i class="fab fa-github"></i>
+              </a>
+            </article>
+
+            <!-- Project 04: HEALTHCARE -->
+            <article class="proj-row">
+              <div class="proj-meta">04 / HEALTHCARE</div>
+              <div class="proj-details">
+                <h3>Smart Health Community</h3>
+                <p>
+                  Health and diet management application featuring doctor
+                  scheduling, diet planning, and dynamic role-based permissions.
+                </p>
+              </div>
+              <a
+                href="https://github.com/TahminaKhanNipa10-Codes/smart-health-community"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="proj-link"
+              >
+                GITHUB <i class="fab fa-github"></i>
+              </a>
+            </article>
+
+            <!-- Project 05: BOOKSTORE -->
+            <article class="proj-row">
+              <div class="proj-meta">05 / WEB APP</div>
+              <div class="proj-details">
+                <h3>BookStore Order System</h3>
+                <p>
+                  An MVC architecture-based order management system designed for
+                  bookstores, handling inventory and user transactions.
+                </p>
+              </div>
+              <a
+                href="https://github.com/TahminaKhanNipa10-Codes/BookStore-OrderSystemMVC"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="proj-link"
+              >
+                GITHUB <i class="fab fa-github"></i>
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
