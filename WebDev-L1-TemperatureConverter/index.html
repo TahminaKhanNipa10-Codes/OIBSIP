@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temperature Converter | Task 3</title>
+    <!-- FontAwesome for Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="converter-container" id="main-card">
+      <h2>
+        <i class="fa-solid fa-temperature-half" id="temp-icon"></i> Temperature
+      </h2>
+
+      <div class="input-group">
+        <label for="tempInput">Enter Temperature:</label>
+        <input type="text" id="tempInput" placeholder="e.g. 32 or -10" />
+      </div>
+
+      <div class="input-group">
+        <label for="unitSelect">Select Input Unit:</label>
+        <select id="unitSelect">
+          <option value="C">Celsius (°C)</option>
+          <option value="F">Fahrenheit (°F)</option>
+          <option value="K">Kelvin (K)</option>
+        </select>
+      </div>
+
+      <button id="convertBtn">
+        <i class="fa-solid fa-bolt"></i> Convert Now
+      </button>
+
+      <div class="results-container" id="resultsContainer">
+        <h3>Converted Values:</h3>
+        <div class="result-box" id="resCelsius">-- °C</div>
+        <div class="result-box" id="resFahrenheit">-- °F</div>
+        <div class="result-box" id="resKelvin">-- K</div>
+      </div>
+    </div>
+
+    <!-- Error Modal -->
+    <div id="errorModal" class="modal">
+      <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <i class="fa-solid fa-triangle-exclamation modal-icon"></i>
+        <h3 class="modal-title">Invalid Input!</h3>
+        <p id="modal-error-msg">Please enter a valid numeric value.</p>
+        <button id="modalOkBtn">Try Again</button>
+      </div>
+    </div>
+
+    <script src="script.js?v=2"></script>
+  </body>
+</html>
