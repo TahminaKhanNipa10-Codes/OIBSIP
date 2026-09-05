@@ -5,6 +5,7 @@ A highly responsive personal developer portfolio showcasing my skills, projects,
 ## 🚀 Live Demo
 
 [Click here to view the live portfolio](#) 
+https://tahminakhannipa10-codes.github.io/OIBSIP/WebDev-L1-Portfolio
 
 ## 🛠️ Tech Stack
 * **HTML5**
