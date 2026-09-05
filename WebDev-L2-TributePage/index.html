@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Satyajit Ray | The Maestro</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="bg-orbs"></div>
+    <!-- Background for Glass Effect -->
+
+    <nav class="navbar">
+      <div class="nav-brand">SR.</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#biography">Biography</a></li>
+        <li><a href="#cinema">Cinema</a></li>
+        <li><a href="#books">Books</a></li>
+        <li><a href="#poetry">Poetry</a></li>
+        <li><a href="#essays">Essays</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+      </ul>
+    </nav>
+
+    <header id="home">
+      <div class="hero-content">
+        <h1 class="title">SATYAJIT RAY</h1>
+        <p class="subtitle">The Maestro of Indian Cinema & Literature</p>
+      </div>
+      <div class="hero-image-container">
+        <img src="images/satyajithome.png" alt="Satyajit Ray" />
+        <div class="image-glow"></div>
+      </div>
+    </header>
+
+    <main class="container">
+      <!-- Biography -->
+      <section id="biography" class="section-padding">
+        <h2 class="section-title">Timeline of a Genius</h2>
+        <div class="timeline">
+          <div class="timeline-item fade-in">
+            <div class="timeline-date">1921</div>
+            <div class="timeline-content">
+              Born in Calcutta on May 2, into a family prominent in arts and
+              literature.
+            </div>
+          </div>
+          <div class="timeline-item fade-in">
+            <div class="timeline-date">1955</div>
+            <div class="timeline-content">
+              Released his debut film <strong>Pather Panchali</strong>, winning
+              11 international prizes.
+            </div>
+          </div>
+          <div class="timeline-item fade-in">
+            <div class="timeline-date">1992</div>
+            <div class="timeline-content">
+              Awarded the <strong>Academy Honorary Award (Oscar)</strong> and
+              the Bharat Ratna.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Cinema -->
+      <section id="cinema" class="section-padding">
+        <h2 class="section-title">Cinematic Masterpieces</h2>
+        <div class="grid-layout">
+          <div
+            class="card glass"
+            data-title="Pather Panchali"
+            data-year="1955"
+            data-desc="The story of a young boy, Apu, and his life in a poverty-stricken Indian village. The first film of the epic Apu Trilogy."
+          >
+            <img src="images/patherpanchali.png" alt="Pather Panchali" />
+            <div class="card-info">
+              <h3>Pather Panchali</h3>
+              <p>1955</p>
+            </div>
+          </div>
+          <div
+            class="card glass"
+            data-title="Jalsaghar"
+            data-year="1958"
+            data-desc="The Music Room showcases a dying aristocrat's desperate attempt to uphold his family's prestige through grand musical concerts."
+          >
+            <img src="images/jalshaghar.png" alt="Jalsaghar" />
+            <div class="card-info">
+              <h3>Jalsaghar</h3>
+              <p>1958</p>
+            </div>
+          </div>
+          <div
+            class="card glass"
+            data-title="Charulata"
+            data-year="1964"
+            data-desc="Based on a story by Rabindranath Tagore, a delicate tale of a lonely housewife's unspoken feelings in 19th-century Bengal."
+          >
+            <img src="images/charulata.png" alt="Charulata" />
+            <div class="card-info">
+              <h3>Charulata</h3>
+              <p>1964</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Books
+      <section id="books" class="section-padding">
+        <h2 class="section-title">Children & Teen Literature</h2>
+        <div class="grid-layout">
+          <div
+            class="card glass"
+            data-title="Feluda Series"
+            data-year="1965-1992"
+            data-desc="The iconic Bengali sleuth Pradosh Chandra Mitter, accompanied by Topshe and Jatayu, solving mysteries across India."
+          >
+            <img src="images/feluda.png" alt="Feluda" />
+            <div class="card-info">
+              <h3>Feluda Series</h3>
+              <p>Detective Novels</p>
+            </div>
+          </div>
+          <div
+            class="card glass"
+            data-title="Professor Shonku"
+            data-year="1961-1992"
+            data-desc="The eccentric genius scientist Trilokeshwar Shonku who invents mind-boggling gadgets like the Annihillin pistol."
+          >
+            <img src="images/professors.png" alt="Professor Shonku" />
+            <div class="card-info">
+              <h3>Professor Shonku</h3>
+              <p>Science Fiction</p>
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+      <!-- Books -->
+      <section id="books" class="section-padding">
+        <h2 class="section-title">Children & Teen Literature</h2>
+        <div class="grid-layout">
+          <!-- 1. Kolkatae Feluda Card -->
+          <div
+            class="card glass"
+            data-title="Kolkatae Feluda"
+            data-year="Feluda Series"
+            data-desc="A classic collection of Feluda mysteries set in the heart of Calcutta."
+          >
+            <img src="images/feludabook.png" alt="Kolkatae Feluda" />
+            <div class="card-info">
+              <h3>Kolkatae Feluda</h3>
+              <p>Mystery Novel</p>
+            </div>
+          </div>
+
+          <!-- 2. Feludar Goendagiri Card (Fixed) -->
+          <div
+            class="card glass"
+            data-title="Feludar Goendagiri"
+            data-year="Feluda Series"
+            data-desc="The very first adventure of the iconic Bengali detective, Feluda."
+          >
+            <img src="images/feluda.png" alt="Feludar Goendagiri" />
+            <div class="card-info">
+              <h3>Feludar Goendagiri</h3>
+              <p>First Appearance</p>
+            </div>
+          </div>
+
+          <!-- 3. Professor Shonku Card -->
+          <div
+            class="card glass"
+            data-title="Professor Shonku"
+            data-year="1961-1992"
+            data-desc="The eccentric genius scientist Trilokeshwar Shonku who invents mind-boggling gadgets."
+          >
+            <img src="images/professors.png" alt="Professor Shonku" />
+            <div class="card-info">
+              <h3>Professor Shonku</h3>
+              <p>Science Fiction</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Poetry -->
+      <section id="poetry" class="section-padding">
+        <h2 class="section-title">Poetry & Short Stories</h2>
+        <div class="grid-layout">
+          <div
+            class="text-card glass"
+            data-title="Todar Desh"
+            data-year="Nonsense Rhymes"
+            data-desc="Continuing the legacy of his father Sukumar Ray, Satyajit Ray wrote numerous nonsense rhymes, bringing international classics into the Bengali literary realm with unmatched wit."
+          >
+            <h3>Todar Desh (Nonsense Rhymes)</h3>
+            <p>
+              Continuing the legacy of his father Sukumar Ray, Satyajit Ray
+              wrote numerous nonsense rhymes...
+            </p>
+          </div>
+          <div
+            class="text-card glass"
+            data-title="Abol Tabol"
+            data-year="Translations"
+            data-desc="Ray masterfully translated his father's iconic collection of Bengali nonsense poetry, 'Abol Tabol', into English, ensuring the rhythm and humor remained intact for global readers."
+          >
+            <h3>Abol Tabol (Translations)</h3>
+            <p>
+              Ray masterfully translated his father's iconic collection of
+              Bengali nonsense poetry into English...
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Essays -->
+      <section id="essays" class="section-padding">
+        <h2 class="section-title">Critical Essays</h2>
+        <div class="grid-layout">
+          <div
+            class="text-card glass"
+            data-title="Our Films, Their Films"
+            data-year="1976"
+            data-desc="An anthology of film criticism containing Ray's insights on Indian and international cinema, analyzing the works of masters like Charlie Chaplin, John Ford, and Akira Kurosawa."
+          >
+            <h3>Our Films, Their Films (1976)</h3>
+            <p>
+              An anthology of film criticism containing Ray's insights on Indian
+              and international cinema...
+            </p>
+          </div>
+          <div
+            class="text-card glass"
+            data-title="Bishoy Cholochitro"
+            data-year="1976"
+            data-desc="A detailed Bengali essay collection focusing on the aesthetic, technical, and storytelling aspects of filmmaking in the Indian context, serving as a masterclass for film students."
+          >
+            <h3>Bishoy Cholochitro (1976)</h3>
+            <p>
+              A detailed Bengali essay collection focusing on the aesthetic,
+              technical, and storytelling aspects...
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Gallery -->
+      <section id="gallery" class="section-padding">
+        <h2 class="section-title">Behind The Lens (Gallery)</h2>
+        <div class="grid-layout gallery">
+          <img
+            src="images/satyajitray.png"
+            class="gallery-img glass"
+            data-title="The Visionary"
+            data-year="Portrait"
+            data-desc="A classic portrait of Satyajit Ray contemplating his next cinematic masterpiece."
+          />
+
+          <img
+            src="images/behindcamera.png"
+            alt="Ray at Work"
+            class="gallery-img glass"
+            data-title="Behind the Camera"
+            data-year="On Set"
+            data-desc="Ray was known for being hands-on with every aspect of his films, from operating the camera to composing music."
+          />
+
+          <img
+            src="images/award.png"
+            alt="Ray Oscar"
+            class="gallery-img glass"
+            data-title="The Ultimate Recognition"
+            data-year="1992"
+            data-desc="Receiving the Honorary Academy Award from his hospital bed in Calcutta, mere weeks before his passing."
+          />
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        Discover more on his
+        <a
+          id="tribute-link"
+          href="https://en.wikipedia.org/wiki/Satyajit_Ray"
+          target="_blank"
+          >Wikipedia Entry
+          <i class="fa-solid fa-arrow-up-right-from-square"></i></a
+        >.
+      </p>
+    </footer>
+
+    <!-- Interactive Modal (Glassy) -->
+    <div id="infoModal" class="modal">
+      <div class="modal-content glass">
+        <span class="close-btn">&times;</span>
+        <img id="modalImg" src="" alt="Modal Image" />
+        <h2 id="modalTitle">Title</h2>
+        <p id="modalSubtitle" class="modal-subtitle">Subtitle</p>
+        <p id="modalDesc">Description goes here...</p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
