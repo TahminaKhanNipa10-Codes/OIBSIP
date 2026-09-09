@@ -109,18 +109,29 @@ OIBSIP/
     │   └── tahminaNipa.jpg
     ├── README.md
     └── screenshots/
-        ├── hero-section.png
-        ├── skills.png
-        └── projects.png
+        ├── herosection.jpeg
+        ├── skills.jpeg
+        └── project.jpeg
+        └── desktopview.jpeg
+        └── messageme.jpeg
+
+```
+🏃 How to Run
 
 
-        🏃 How to Run
 Option 1: Open Locally
 
+
 Bash
+
+
 git clone [https://github.com/TahminaKhanNipa10-Codes/OIBSIP.git](https://github.com/TahminaKhanNipa10-Codes/OIBSIP.git)
+
+
 cd OIBSIP/WebDev-L1-Portfolio/
-open index_2.html
+
+
+open index.html
 
 Option 2: View Live
 Visit the GitHub Pages link above.
