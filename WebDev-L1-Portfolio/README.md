@@ -76,7 +76,7 @@ A developer's digital identity, designed to showcase my technical arsenal, enter
 ### 📸 Screenshots
 
 <p align="center">
-  <img src="screenshots/herosection.jpeg.jpeg" alt="Hero Section" width="90%">
+  <img src="screenshots/herosection.jpeg" alt="Hero Section" width="90%">
   <br><br>
   <img src="screenshots/skills.jpeg" alt="Skills Section" width="45%">
   <img src="screenshots/project.jpeg" alt="Projects Section" width="45%">
