@@ -76,10 +76,11 @@ A developer's digital identity, designed to showcase my technical arsenal, enter
 ### 📸 Screenshots
 
 <p align="center">
-  <img src="screenshots/hero-section.png" alt="Hero Section" width="90%">
+  <img src="screenshots/desktopview.jpeg" alt="Hero Section" width="90%">
   <br><br>
-  <img src="screenshots/skills.png" alt="Skills Section" width="45%">
-  <img src="screenshots/projects.png" alt="Projects Section" width="45%">
+  <img src="screenshots/skills.jpeg" alt="Skills Section" width="45%">
+  <img src="screenshots/project.jpeg" alt="Projects Section" width="45%">
+   <img src="screenshots/messageme.jpeg" alt="Message Me" width="45%">
 </p>
 
 ---
@@ -111,3 +112,17 @@ OIBSIP/
         ├── hero-section.png
         ├── skills.png
         └── projects.png
+
+
+        🏃 How to Run
+Option 1: Open Locally
+
+Bash
+git clone [https://github.com/TahminaKhanNipa10-Codes/OIBSIP.git](https://github.com/TahminaKhanNipa10-Codes/OIBSIP.git)
+cd OIBSIP/WebDev-L1-Portfolio/
+open index_2.html
+
+Option 2: View Live
+Visit the GitHub Pages link above.
+
+🤝 Connect with Me
