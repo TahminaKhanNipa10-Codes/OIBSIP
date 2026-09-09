@@ -34,7 +34,7 @@ This repository contains the **Level 1 - Task 2** project completed during my **
 A developer's digital identity, designed to showcase my technical arsenal, enterprise-level projects, and software engineering capabilities.
 
 <p align="center">
-  <img src="screenshots/DesktopView.jpeg" alt="Portfolio Desktop View" width="80%">
+  <img src="screenshots/desktopview.jpeg" alt="Portfolio Desktop View" width="80%">
 </p>
 
 ---
