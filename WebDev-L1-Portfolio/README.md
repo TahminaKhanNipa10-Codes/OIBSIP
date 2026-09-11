@@ -1,31 +1,139 @@
-# Level 1, Task 2 - Personal Portfolio
+<div align="center">
+  
+# 🚀 OIBSIP — Oasis Infobyte Internship
+  
+![Oasis Infobyte](https://img.shields.io/badge/Oasis-Infobyte-0056D2?style=for-the-badge&logo=google&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Status](https://img.shields.io/badge/Status-Completed-00C853?style=for-the-badge&logo=checkmarx&logoColor=white)
 
-A highly responsive personal developer portfolio showcasing my skills, projects, and professional background, built to fulfill the Web Development & Designing Level 1 requirement for the Oasis Infobyte SIP.
+> *"First, solve the problem. Then, write the code."*  
+> — **John Johnson**
 
-## 🚀 Live Demo
+</div>
 
-[Click here to view the live portfolio](#) 
-https://tahminakhannipa10-codes.github.io/OIBSIP/WebDev-L1-Portfolio
+---
 
-## 🛠️ Tech Stack
-* **HTML5**
-* **CSS3** (Glassmorphism, Flexbox, CSS Grid)
-* **JavaScript** (Vanilla JS for mobile navigation and 3D tilt effects)
+## 📖 About The Project
 
-## ✨ Feature Checklist Completed
-* Profile/hero section including name, role title, and a professional photo
-* About Me section describing background and architectural approach
-* Skills section structured as a visual grid of technical skills (.NET, MERN, Android)
-* Projects section featuring 5 complete project cards (title, description, GitHub links)
-* Contact section including email and social links (LinkedIn, GitHub)
-* Smooth scroll navigation integrated between all sections
-* Consistent cinematic branding (colour scheme, typography, deep space background)
-* Fully responsive layout ensuring seamless usability on both desktop and mobile devices
+This repository contains the **Level 1 - Task 2** project completed during my **Web Development Internship** at **Oasis Infobyte**. The project is a highly interactive, visually striking, and fully responsive personal developer portfolio website.
 
-## 📌 Oasis Infobyte SIP Requirements Met
-* **Repository:** Housed in the central `OIBSIP` repository.
-* **Folder Structure:** Stored under the strict `OIBSIP/WebDev-L1-PersonalPortfolio/` format.
-* **Video Demo Requirements:** Video begins with a 2-second static title card displaying Full Name, Track, and Task Title before demonstrating the live portfolio.
+| 📋 Detail | 📌 Info |
+|:----------|:--------|
+| **Internship Period** | August 2026 |
+| **Track** | Web Development & Designing |
+| **Task** | Level 1 - Task 2 (Personal Portfolio) |
+| **Technology** | HTML5, CSS3, Vanilla JavaScript |
+| **Status** | ✅ Completed |
 
-## 🏷️ Hashtags
-#oasisinfobyte #webdevelopment #internship #portfolio #frontend
+---
+
+## 🚀 Task 2: Personal Portfolio Website
+
+A developer's digital identity, designed to showcase my technical arsenal, enterprise-level projects, and software engineering capabilities.
+
+<p align="center">
+  <img src="screenshots/desktopview.jpeg" alt="Portfolio Desktop View" width="80%">
+</p>
+
+---
+
+### ✨ Key Features
+
+<details>
+<summary><b>📌 Click to expand all features</b></summary>
+
+| # | Feature | Description |
+|---|---------|-------------|
+| 1 | **Cinematic UI** | Deep dark backgrounds with elegant frosted-glass overlays. |
+| 2 | **3D Animated Avatar** | Custom zero-gravity tilt effect tracking mouse coordinates. |
+| 3 | **Staggered Fade-Ins** | Dynamic DOM-loaded staggered animations for a smooth UX. |
+| 4 | **Technical Arsenal** | Grid-based skill showcase with dynamic Devicon logos. |
+| 5 | **Enterprise Projects** | Detailed project listings featuring direct repository links. |
+| 6 | **Message Form** | Fully styled, responsive contact section with glowing accents. |
+| 7 | **Fully Responsive** | Seamless layout adaptation across mobile, tablet, and desktop. |
+| 8 | **Mobile Navigation** | Custom animated hamburger menu for smaller screens. |
+
+</details>
+
+---
+
+### 🛠️ Technologies Used
+
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/Flexbox-0056D2?style=for-the-badge&logo=css3&logoColor=white" alt="Flexbox" />
+  <img src="https://img.shields.io/badge/CSS%20Grid-0056D2?style=for-the-badge&logo=css3&logoColor=white" alt="CSS Grid" />
+  <img src="https://img.shields.io/badge/Google%20Fonts-4285F4?style=for-the-badge&logo=googlefonts&logoColor=white" alt="Google Fonts" />
+  <img src="https://img.shields.io/badge/Font%20Awesome-339AF0?style=for-the-badge&logo=fontawesome&logoColor=white" alt="Font Awesome" />
+</p>
+
+---
+
+### 📸 Screenshots
+
+<p align="center">
+  <img src="screenshots/herosection.jpeg" alt="Hero Section" width="90%">
+  <br><br>
+  <img src="screenshots/skills.jpeg" alt="Skills Section" width="45%">
+  <img src="screenshots/project.jpeg" alt="Projects Section" width="45%">
+   <img src="screenshots/messageme.jpeg" alt="Message Me" width="45%">
+</p>
+
+---
+
+### 🌐 Live Demo
+
+<p align="center">
+  <a href="https://tahminakhanNipa10-codes.github.io/OIBSIP/WebDev-L1-Portfolio/">
+    <img src="https://img.shields.io/badge/🌐%20View%20Live%20Demo-0056D2?style=for-the-badge&logo=githubpages&logoColor=white" alt="Live Demo">
+  </a>
+</p>
+
+🔗 **Direct Link:** [https://tahminakhanNipa10-codes.github.io/OIBSIP/WebDev-L1-Portfolio/](https://tahminakhanNipa10-codes.github.io/OIBSIP/WebDev-L1-Portfolio/)
+
+---
+
+### 📁 Folder Structure
+```text
+OIBSIP/
+└── WebDev-L1-Portfolio/
+    ├── index_2.html (or index.html)
+    ├── style_2.css (or style.css)
+    ├── script_2.js (or script.js)
+    ├── images/
+    │   ├── background2.png
+    │   └── tahminaNipa.jpg
+    ├── README.md
+    └── screenshots/
+        ├── herosection.jpeg
+        ├── skills.jpeg
+        └── project.jpeg
+        └── desktopview.jpeg
+        └── messageme.jpeg
+
+```
+🏃 How to Run
+
+
+Option 1: Open Locally
+
+
+Bash
+
+
+git clone [https://github.com/TahminaKhanNipa10-Codes/OIBSIP.git](https://github.com/TahminaKhanNipa10-Codes/OIBSIP.git)
+
+
+cd OIBSIP/WebDev-L1-Portfolio/
+
+
+open index.html
+
+Option 2: View Live
+Visit the GitHub Pages link above.
+
+🤝 Connect with Me
