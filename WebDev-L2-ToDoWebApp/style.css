@@ -1,0 +1,311 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+:root {
+  --bg-dark: #050507;
+  --text-main: #e0e0e0;
+  --text-muted: #777777;
+  --accent-gold: #d4af37;
+  --gold-glow: rgba(212, 175, 55, 0.15);
+}
+
+body {
+  background-color: var(--bg-dark);
+  color: var(--text-main);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Elegant Background Glow matching your portfolio */
+.bg-glow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, var(--gold-glow) 0%, transparent 60%);
+  z-index: -1;
+  pointer-events: none;
+}
+
+.app-container {
+  width: 100%;
+  max-width: 480px;
+}
+
+.todo-wrapper {
+  background: rgba(255, 255, 255, 0.02);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border: 1px solid rgba(212, 175, 55, 0.2);
+  border-radius: 20px;
+  padding: 35px 30px;
+  box-shadow:
+    0 20px 50px rgba(0, 0, 0, 0.8),
+    inset 0 1px 0 rgba(255, 255, 255, 0.05);
+}
+
+header {
+  margin-bottom: 25px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  padding-bottom: 20px;
+}
+
+h1 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: var(--text-main);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+#date-display {
+  font-size: 0.85rem;
+  color: var(--accent-gold);
+  margin-top: 4px;
+  letter-spacing: 1px;
+}
+
+/* =========================================
+   Input Section
+   ========================================= */
+.input-section {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+#task-input {
+  flex: 1;
+  background: rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 15px 20px;
+  border-radius: 10px;
+  color: var(--text-main);
+  font-size: 0.95rem;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+#task-input::placeholder {
+  color: var(--text-muted);
+}
+
+#task-input:focus {
+  border-color: var(--accent-gold);
+  box-shadow: 0 0 15px rgba(212, 175, 55, 0.15);
+  background: rgba(0, 0, 0, 0.6);
+}
+
+#add-btn {
+  background: transparent;
+  color: var(--accent-gold);
+  border: 1px solid var(--accent-gold);
+  width: 52px;
+  height: 52px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
+}
+
+#add-btn:hover {
+  background: var(--accent-gold);
+  color: var(--bg-dark);
+  box-shadow: 0 0 20px var(--gold-glow);
+}
+
+/* =========================================
+   Task Lists
+   ========================================= */
+.list-section {
+  margin-bottom: 25px;
+}
+.mt-4 {
+  margin-top: 30px;
+}
+
+.list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.list-header h2 {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.count-badge {
+  font-size: 0.75rem;
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--text-muted);
+  padding: 4px 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.completed-badge {
+  color: var(--accent-gold);
+  border-color: rgba(212, 175, 55, 0.2);
+  background: rgba(212, 175, 55, 0.05);
+}
+
+.task-ul {
+  list-style: none;
+  max-height: 220px;
+  overflow-y: auto;
+  padding-right: 5px;
+}
+
+.task-ul::-webkit-scrollbar {
+  width: 4px;
+}
+.task-ul::-webkit-scrollbar-thumb {
+  background: rgba(212, 175, 55, 0.3);
+  border-radius: 10px;
+}
+
+/* =========================================
+   Task Items
+   ========================================= */
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.02);
+  padding: 15px 18px;
+  border-radius: 12px;
+  margin-bottom: 12px;
+  border-left: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.task-item:hover {
+  background: rgba(255, 255, 255, 0.05);
+  border-left-color: var(--accent-gold);
+  transform: translateX(3px);
+}
+
+.task-main {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  flex: 1;
+}
+
+.check-circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid var(--text-muted);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.7rem;
+  color: transparent;
+  cursor: pointer;
+  margin-top: 3px;
+  transition: all 0.3s ease;
+}
+
+.check-circle:hover {
+  border-color: var(--accent-gold);
+}
+
+.completed .check-circle {
+  background: var(--accent-gold);
+  border-color: var(--accent-gold);
+  color: var(--bg-dark);
+}
+
+.task-text {
+  font-size: 0.95rem;
+  color: var(--text-main);
+  font-weight: 300;
+  line-height: 1.5;
+  word-break: break-word;
+  transition: all 0.3s ease;
+}
+
+.completed .task-text {
+  text-decoration: line-through;
+  color: var(--text-muted);
+}
+
+.timestamp {
+  display: block;
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  margin-top: 5px;
+  letter-spacing: 0.5px;
+}
+
+.edit-input {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid var(--accent-gold);
+  color: var(--text-main);
+  padding: 6px 12px;
+  border-radius: 6px;
+  outline: none;
+  font-size: 0.95rem;
+}
+
+/* =========================================
+   Action Buttons
+   ========================================= */
+.action-btns {
+  display: flex;
+  gap: 8px;
+  opacity: 0.3;
+  transition: 0.3s;
+}
+
+.task-item:hover .action-btns {
+  opacity: 1;
+}
+
+.action-btns button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: all 0.2s ease;
+}
+
+.edit-btn {
+  color: var(--text-muted);
+}
+.edit-btn:hover {
+  color: var(--text-main);
+}
+
+.delete-btn {
+  color: var(--text-muted);
+}
+.delete-btn:hover {
+  color: #ef4444;
+}
+
+.empty-msg {
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  padding: 20px 0;
+  font-style: italic;
+}

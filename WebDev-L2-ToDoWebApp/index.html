@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Premium To-Do | Level 2</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Soft Gold Background Glow -->
+    <div class="bg-glow"></div>
+
+    <div class="app-container">
+      <div class="todo-wrapper">
+        <header>
+          <div class="header-text">
+            <h1>My Tasks</h1>
+            <p id="date-display">Today</p>
+          </div>
+        </header>
+
+        <!-- Input Section -->
+        <div class="input-section">
+          <input type="text" id="task-input" placeholder="Add a new task..." />
+          <button id="add-btn"><i class="fas fa-plus"></i></button>
+        </div>
+
+        <!-- Pending Tasks Section -->
+        <div class="list-section">
+          <div class="list-header">
+            <h2>Pending</h2>
+            <span class="count-badge" id="pending-count">0</span>
+          </div>
+          <ul id="pending-list" class="task-ul"></ul>
+        </div>
+
+        <!-- Completed Tasks Section -->
+        <div class="list-section mt-4">
+          <div class="list-header">
+            <h2>Completed</h2>
+            <span class="count-badge completed-badge" id="completed-count"
+              >0</span
+            >
+          </div>
+          <ul id="completed-list" class="task-ul"></ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
