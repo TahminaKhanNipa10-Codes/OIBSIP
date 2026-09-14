@@ -381,7 +381,7 @@ header {
   font-weight: 300;
 }
 
-/* Quote Section (Updated for 2 Quotes) */
+/* Quote Section */
 .quote-section {
   padding: 80px 20px;
   background: linear-gradient(
@@ -539,12 +539,30 @@ footer {
   border-bottom: 1px solid #fff;
 }
 
+/* =========================================
+   MOBILE RESPONSIVE FIXES (UPDATED)
+   ========================================= */
 @media (max-width: 768px) {
-  .navbar {
-    padding: 15px 20px;
-    flex-direction: column;
-    gap: 15px;
+  /* 1. Prevent Horizontal Scroll & Screen Cut-off */
+  html,
+  body {
+    overflow-x: hidden;
+    width: 100%;
   }
+
+  /* 2. Fix Section Paddings & Container Widths */
+  section,
+  header,
+  footer,
+  .container,
+  .quote-section {
+    width: 100% !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    box-sizing: border-box;
+  }
+
+  /* 3. Typography Adjustments */
   .title {
     font-size: 3rem;
     letter-spacing: 6px;
@@ -552,10 +570,49 @@ footer {
   .section-title {
     font-size: 2.2rem;
   }
-  .nav-links {
-    gap: 15px;
-  }
   blockquote {
     font-size: 1.5rem;
+  }
+  p,
+  h1,
+  h2,
+  h3,
+  blockquote,
+  .quote-text,
+  .bio-text p {
+    width: 100%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+
+  /* 4. Stack Cards & Grids Vertically (Books/Cinema/Quotes) */
+  .grid-layout,
+  .quotes-grid,
+  .card-container,
+  .gallery-grid {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 25px !important;
+    width: 100%;
+  }
+
+  .card,
+  .text-card,
+  .single-quote,
+  .timeline-item {
+    width: 100% !important;
+    margin: 0 auto !important;
+  }
+
+  /* 5. Fix Navbar for Mobile */
+  .navbar {
+    padding: 15px 20px;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+  .nav-links {
+    gap: 15px;
   }
 }

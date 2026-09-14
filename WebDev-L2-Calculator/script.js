@@ -20,7 +20,7 @@ buttons.forEach((button) => {
       try {
         if (currentInput === "") return;
 
-        // Convert symbols to JavaScript Math functions
+        // Convert symbols to JavaScript Math functions and % to /100
         let expression = currentInput
           .replace(/sin\(/g, "Math.sin(")
           .replace(/cos\(/g, "Math.cos(")
@@ -28,7 +28,8 @@ buttons.forEach((button) => {
           .replace(/log\(/g, "Math.log10(")
           .replace(/√\(/g, "Math.sqrt(")
           .replace(/π/g, "Math.PI")
-          .replace(/\^/g, "**");
+          .replace(/\^/g, "**")
+          .replace(/%/g, "/100"); // <-- % চিহ্নের সমাধান এখানে যুক্ত করা হয়েছে
 
         let result = eval(expression);
 

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Premium Auth | Task 4</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Space+Grotesk:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Animated Background Shapes -->
+  <div class="shape shape-1"></div>
+  <div class="shape shape-2"></div>
+  <div class="shape shape-3"></div>
+
+  <!-- Notification Toast -->
+  <div id="toast" class="toast hidden">Message</div>
+
+  <!-- Auth Container -->
+  <div class="premium-card" id="auth-section">
+    
+    <!-- Login Page -->
+    <div id="login-box">
+      <h2 class="title">Welcome Back.</h2>
+      <p class="subtitle">Enter your details to proceed</p>
+      <form id="login-form">
+        <div class="input-group">
+          <input type="text" id="login-user" placeholder="Username or Email" required>
+        </div>
+        <div class="input-group">
+          <input type="password" id="login-pass" placeholder="Password" required>
+          <span class="toggle-pass" id="toggle-login-pass">👁️</span>
+        </div>
+        <button type="submit" class="gradient-btn">Login</button>
+      </form>
+      <p class="switch-text">New here? <span id="go-to-reg">Create an account</span></p>
+    </div>
+
+    <!-- Registration Page -->
+    <div id="register-box" class="hidden">
+      <h2 class="title">Join Us.</h2>
+      <p class="subtitle">Experience the extraordinary</p>
+      <form id="register-form">
+        <div class="input-group">
+          <input type="text" id="reg-user" placeholder="Username" required>
+        </div>
+        <div class="input-group">
+          <input type="email" id="reg-email" placeholder="Email Address" required>
+        </div>
+        <div class="input-group">
+          <input type="password" id="reg-pass" placeholder="Password (Min 8 chars, 1 number)" required>
+          <span class="toggle-pass" id="toggle-reg-pass">👁️</span>
+        </div>
+        <button type="submit" class="gradient-btn">Register</button>
+      </form>
+      <p class="switch-text">Already a member? <span id="go-to-login">Login</span></p>
+    </div>
+  </div>
+
+  <!-- Protected/Dashboard Page -->
+  <div class="premium-card hidden" id="dashboard-section">
+    <h2 class="title" id="welcome-msg">Dashboard</h2>
+    <p class="subtitle">Authentication Successful</p>
+    <div class="dashboard-content">
+      <p>This secure dashboard is only accessible after a successful login. If accessed directly without a session, you are redirected to the login page.</p>
+    </div>
+    <button id="logout-btn" class="gradient-btn outline">Logout</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
