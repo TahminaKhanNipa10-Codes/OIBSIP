@@ -139,9 +139,7 @@ text
 
 ### Video 
 
-<video src="LandingPages.mp4" width="100%" controls>
-  Your browser does not support the video tag.
-</video>
+<video src="https://github.com/TahminaKhanNipa10-Codes/OIBSIP/raw/main/WebDev-L1-LandingPage/LandingPages.mp4" width="100%" controls></video>
 
 ### 🏃 How to Run
 
