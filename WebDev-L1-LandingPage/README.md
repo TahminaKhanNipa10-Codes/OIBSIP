@@ -139,7 +139,7 @@ text
 
 ### Video 
 
-<video src="https://github.com/TahminaKhanNipa10-Codes/OIBSIP/raw/main/WebDev-L1-LandingPage/LandingPages.mp4" width="100%" controls></video>
+[▶️ **Click Here to Watch the Landing Page Demo Video**](https://github.com/TahminaKhanNipa10-Codes/OIBSIP/raw/main/WebDev-L1-LandingPage/LandingPages.mp4)
 
 ### 🏃 How to Run
 
