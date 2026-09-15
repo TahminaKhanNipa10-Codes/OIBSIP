@@ -115,4 +115,8 @@ Simply double-click the index.html file to open it in your default web browser, 
 
 🙏 Acknowledgements
 
+<<<<<<< HEAD
 A special thanks to Oasis Infobyte for providing this wonderful internship opportunity that helped enhance my front-end development and security implementation skills!
+=======
+A special thanks to Oasis Infobyte for providing this wonderful internship opportunity that helped enhance my front-end development and security implementation skills!
+>>>>>>> b5afae56af4da81f407af7adb01afed3171b80f5

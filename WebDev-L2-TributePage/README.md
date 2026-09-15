@@ -70,6 +70,7 @@ A visually engaging tribute page that adheres to strict professional design requ
 ### 📸 Screenshots
 
 **💻 Desktop View**
+<<<<<<< HEAD
 
 <p align="center">
   <img src="screenshots/desktopview.jpeg" alt="Desktop View" width="95%">
@@ -77,12 +78,22 @@ A visually engaging tribute page that adheres to strict professional design requ
 
 **📱 Mobile View**
 
+=======
+<p align="center">
+  <img src="screenshots/desktopview.jpeg" alt="Desktop View" width="95%">
+</p>
+
+**📱 Mobile View**
+>>>>>>> b5afae56af4da81f407af7adb01afed3171b80f5
 <p align="center">
   <img src="screenshots/mobileview.jpeg" alt="Mobile View" width="30%">
 </p>
 
 **🖼️ Sections & Modals**
+<<<<<<< HEAD
 
+=======
+>>>>>>> b5afae56af4da81f407af7adb01afed3171b80f5
 <p align="center">
   <img src="screenshots/gellary.jpeg" alt="Gallery Modal View" width="48%">
   <img src="screenshots/cinema.jpeg" alt="Cinema Modal View" width="48%">
@@ -126,9 +137,18 @@ OIBSIP/
     ├── style.css
     ├── script.js
     └── README.md
+<<<<<<< HEAD
 ---
+=======
+---  
+>>>>>>> b5afae56af4da81f407af7adb01afed3171b80f5
 ```
+ 🛠️ How to Run Locally
+<details>
+ <summary><b>📌 Click to expand instructions</b></summary>
+Step 1: Clone the Repository
 
+<<<<<<< HEAD
 🛠️ How to Run Locally
 
 <details>
@@ -139,12 +159,21 @@ git clone [https://github.com/TahminaKhanNipa10-Codes/OIBSIP.git](https://github
 
 Step 2: Navigate to the Project Directory
 
+=======
+git clone [https://github.com/TahminaKhanNipa10-Codes/OIBSIP.git](https://github.com/TahminaKhanNipa10-Codes/OIBSIP.git)
+
+Step 2: Navigate to the Project Directory
+
+>>>>>>> b5afae56af4da81f407af7adb01afed3171b80f5
 cd OIBSIP/WebDev-L2-TributePage/
 
 Step 3: Open the Project
 
 Simply double-click the index.html file to open it in your default web browser, or use an extension like Live Server in VS Code.
+<<<<<<< HEAD
 
+=======
+>>>>>>> b5afae56af4da81f407af7adb01afed3171b80f5
 </details>
 🙏 Acknowledgements
 

@@ -116,24 +116,25 @@ OIBSIP/
         └── messageme.jpeg
 
 ```
-🏃 How to Run
+### 🏃 How to Run
 
+<details>
+ <summary><b>📌 Click to expand instructions</b></summary>
 
 Option 1: Open Locally
 
-
-Bash
-
-
 git clone [https://github.com/TahminaKhanNipa10-Codes/OIBSIP.git](https://github.com/TahminaKhanNipa10-Codes/OIBSIP.git)
 
-
 cd OIBSIP/WebDev-L1-Portfolio/
-
 
 open index.html
 
 Option 2: View Live
-Visit the GitHub Pages link above.
 
+Visit the GitHub Pages link above.
+</details>
 🤝 Connect with Me
+
+🙏 Acknowledgements
+
+A special thanks to Oasis Infobyte for providing this wonderful internship opportunity that helped enhance my front-end development and UI design skills!
