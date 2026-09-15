@@ -94,8 +94,8 @@ A visually stunning, fully responsive landing page for a luxury car dealership. 
 <p align="center">
   <img src="screenshots/desktop.png" alt="Desktop View" width="90%">
   <br><br>
-  <img src="screenshots/mobile.png" alt="Mobile View" width="45%">
-  <img src="screenshots/carousel.png" alt="Carousel View" width="45%">
+  <img src="screenshots/mobile.png" alt="Mobile View" width="30%">
+  <img src="screenshots/carousel.png" alt="Carousel View" width="80%">
 </p>
 ---
 

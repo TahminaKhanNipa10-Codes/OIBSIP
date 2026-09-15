@@ -45,16 +45,16 @@ This repository contains the **Login Authentication System** project completed d
 ### 📸 Screenshots
 
 <p align="center">
-  <img src="screenshots/login_default.png" alt="Default Login Page" width="80%">
+  <img src="screenshots/login_default.png" alt="Default Login Page" width="50%">
 </p>
 <p align="center">
-  <img src="screenshots/login_success.png" alt="Active Login State" width="80%">
+  <img src="screenshots/login_success.png" alt="Active Login State" width="50%">
 </p>
 <p align="center">
-  <img src="screenshots/dashboard.png.png" alt="Dashboard" width="80%">
+  <img src="screenshots/dashboard.png" alt="Dashboard" width="50%">
 </p>
 <p align="center">
-  <img src="screenshots/reg_success.png" alt="Registration Success Toast" width="80%">
+  <img src="screenshots/reg_success.png" alt="Registration Success Toast" width="50%">
 </p>
 
 _(Note: The images above showcase the default login view, active input states, and successful registration notifications)._
@@ -97,6 +97,8 @@ OIBSIP/
 ```
 
 🛠️ How to Run Locally
+<details>
+ <summary><b>📌 Click to expand instructions</b></summary>
 Step 1: Clone the Repository
 
 git clone [https://github.com/TahminaKhanNipa10-Codes/OIBSIP.git](https://github.com/TahminaKhanNipa10-Codes/OIBSIP.git)
@@ -107,7 +109,10 @@ cd OIBSIP/WebDev-L2-LoginSystem/
 
 Step 3: Open the Project
 Simply double-click the index.html file to open it in your default web browser, or use an extension like Live Server in VS Code.
-
+</details>
 🤝 Connect with Me
+
+
 🙏 Acknowledgements
+
 A special thanks to Oasis Infobyte for providing this wonderful internship opportunity that helped enhance my front-end development and security implementation skills!

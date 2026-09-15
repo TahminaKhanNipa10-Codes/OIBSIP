@@ -40,13 +40,13 @@ This repository contains the **Level 2 - Task 3** project completed during my **
 ### 📸 Screenshots
 
 <p align="center">
-  <img src="screenshots/TaskCompleted.jpeg" alt="To-Do App Task Completed" width="100%">
+  <img src="screenshots/taskCompleted.jpeg" alt="To-Do App Task Completed" width="40%">
 </p>
 <p align="center">
-  <img src="screenshots/pending.jpeg" alt="To-Do App Pending Tasks" width="100%">
+  <img src="screenshots/pending.jpeg" alt="To-Do App Pending Tasks" width="40%">
 </p>
 <p align="center">
-  <img src="screenshots/empty.jpeg" alt="To-Do App empty view" width="100%">
+  <img src="screenshots/emptyTask.jpeg" alt="To-Do App empty view" width="40%">
 </p>
 
 _(Note: The images above showcase the application's interface and task management state)._
@@ -80,14 +80,16 @@ OIBSIP/
     ├── style.css
     ├── script.js
     ├── screenshots/
-    │   ├── TaskCompleted.jpeg
-    │   └── pending.jpeg
+    │   ├── taskCompleted.jpeg
+    │   ├── pending.jpeg
     │   └── emptyTask.jpeg
     ├── ToDoWebApp.mp4
     └── README.md
 ```
 
 🛠️ How to Run Locally
+<details>
+ <summary><b>📌 Click to expand instructions</b></summary>
 Step 1: Clone the Repository
 
 git clone [https://github.com/TahminaKhanNipa10-Codes/OIBSIP.git](https://github.com/TahminaKhanNipa10-Codes/OIBSIP.git)
@@ -98,7 +100,8 @@ cd OIBSIP/WebDev-L2-ToDoWebApp/
 
 Step 3: Open the Project
 Simply double-click the index.html file to open it in your default web browser, or use an extension like Live Server in VS Code.
-
+</details>
 🤝 Connect with Me
+
 🙏 Acknowledgements
 A special thanks to Oasis Infobyte for providing this wonderful internship opportunity that helped enhance my front-end development skills!

@@ -34,11 +34,7 @@ This repository contains the **Level 1 - Task 3** project completed during my **
 A modern utility tool that provides instant, precise temperature conversions between Celsius, Fahrenheit, and Kelvin, wrapped in an interactive Cyber/Neon themed UI.
 
 <p align="center">
-<<<<<<< HEAD
   <img src="screenshots/main.png" alt="Temperature Converter View" width="40%">
-=======
-  <img src="screenshot/main.png" alt="Temperature Converter View" width="40%">
->>>>>>> b5a34217b698ea03694160508c6c2ae90170e0b2
 </p>
 
 ---
@@ -76,15 +72,9 @@ A modern utility tool that provides instant, precise temperature conversions bet
 ### 📸 Screenshots
 
 <p align="center">
-<<<<<<< HEAD
-  <img src="screenshots/main.png" alt="Temperature Converter View View" width="45%">
+  <img src="screenshots/main.png" alt="Temperature Converter Main View" width="45%">
   <img src="screenshots/invalid.png" alt="Invalid View" width="45%">
   <img src="screenshots/limit.png" alt="Limit View" width="45%">
-=======
-  <img src="screenshot/main.png" alt="Main  View" width="45%">
-  <img src="screenshot/invalid.png" alt="Invalid View" width="45%">
-  <img src="screenshot/limit.png" alt="Limit View" width="45%">
->>>>>>> b5a34217b698ea03694160508c6c2ae90170e0b2
 </p>
 
 ---
@@ -106,17 +96,20 @@ A modern utility tool that provides instant, precise temperature conversions bet
 ```text
 OIBSIP/
 └── WebDev-L1-TemperatureConverter/
+    ├── screenshots/
+    │   ├── main.png
+    │   ├── invalid.png
+    │   └── limit.png
     ├── index.html
     ├── style.css
     ├── script.js
-    ├── README.md
-    └── screenshot/
-        ├── main.png
-        └── invalid.png
-        └── limit.png
-<<<<<<< HEAD
+    └── README.md
 ```
+
 🛠️ How to Run Locally
+<details>
+ <summary><b>📌 Click to expand instructions</b></summary>
+  
 Step 1: Clone the Repository
 
 git clone [https://github.com/TahminaKhanNipa10-Codes/OIBSIP.git](https://github.com/TahminaKhanNipa10-Codes/OIBSIP.git)
@@ -124,18 +117,11 @@ git clone [https://github.com/TahminaKhanNipa10-Codes/OIBSIP.git](https://github
 Step 2: Navigate to the Project Directory
 
 cd OIBSIP/WebDev-L1-TemperatureConverter/
-
 Step 3: Open the Project
 Simply double-click the index.html file to open it in your default web browser, or use an extension like Live Server in VS Code.
-
-### 🤝 Connect with Me
-
-<p align="left"> 
-  <a href="https://linkedin.com/in/tahminakhan-nipa"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a> 
-  <a href="https://github.com/TahminaKhanNipa10-Codes"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a> 
-</p>
+</details>
+🤝 Connect with Me
 
 🙏 Acknowledgements
+
 A special thanks to Oasis Infobyte for providing this wonderful internship opportunity that helped enhance my front-end development skills!
-=======
->>>>>>> b5a34217b698ea03694160508c6c2ae90170e0b2
