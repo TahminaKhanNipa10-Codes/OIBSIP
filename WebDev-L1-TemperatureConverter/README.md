@@ -107,6 +107,9 @@ OIBSIP/
 ```
 
 🛠️ How to Run Locally
+<details>
+ <summary><b>📌 Click to expand instructions</b></summary>
+  
 Step 1: Clone the Repository
 
 git clone [https://github.com/TahminaKhanNipa10-Codes/OIBSIP.git](https://github.com/TahminaKhanNipa10-Codes/OIBSIP.git)
@@ -116,7 +119,9 @@ Step 2: Navigate to the Project Directory
 cd OIBSIP/WebDev-L1-TemperatureConverter/
 Step 3: Open the Project
 Simply double-click the index.html file to open it in your default web browser, or use an extension like Live Server in VS Code.
-
+</details>
 🤝 Connect with Me
+
 🙏 Acknowledgements
+
 A special thanks to Oasis Infobyte for providing this wonderful internship opportunity that helped enhance my front-end development skills!
