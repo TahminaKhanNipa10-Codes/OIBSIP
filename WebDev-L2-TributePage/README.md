@@ -33,10 +33,6 @@ This repository contains the **Level 2 - Task 2** project completed during my **
 
 A visually engaging tribute page that adheres to strict professional design requirements, featuring a comprehensive biography, a chronological timeline, and an interactive gallery.
 
-<p align="center">
-  <img src="screenshots/desktopview.jpeg" alt="Tribute Page Desktop View" width="70%">
-</p>
-
 ---
 
 ### ✨ Key Features
@@ -73,15 +69,24 @@ A visually engaging tribute page that adheres to strict professional design requ
 
 ### 📸 Screenshots
 
+**💻 Desktop View**
 <p align="center">
-  <img src="screenshots/desktopview.jpeg" alt="Desktop View" width="90%">
-  <br><br>
-  <img src="screenshots/mobileview.jpeg" alt="Mobile View" width="45%">
-  <img src="screenshots/gellary.jpeg" alt="Gallery Modal View" width="45%">
+  <img src="screenshots/desktopview.jpeg" alt="Desktop View" width="95%">
+</p>
 
-   <img src="screenshots/literatures.jpeg" alt="Literatures Modal View" width="45%">
-   <img src="screenshots/books.jpeg" alt="Books Modal View" width="45%">
-  <img src="screenshots/cinema.jpeg" alt="Cinema Modal View" width="45%">
+**📱 Mobile View**
+<p align="center">
+  <img src="screenshots/mobileview.jpeg" alt="Mobile View" width="30%">
+</p>
+
+**🖼️ Sections & Modals**
+<p align="center">
+  <img src="screenshots/gellary.jpeg" alt="Gallery Modal View" width="48%">
+  <img src="screenshots/cinema.jpeg" alt="Cinema Modal View" width="48%">
+</p>
+<p align="center">
+   <img src="screenshots/literatures.jpeg" alt="Literatures Modal View" width="48%">
+   <img src="screenshots/books.jpeg" alt="Books Modal View" width="48%">
 </p>
 
 ---
@@ -103,29 +108,18 @@ A visually engaging tribute page that adheres to strict professional design requ
 ```text
 OIBSIP/
 └── WebDev-L2-TributePage/
-    ├── index.html
-    ├── style.css
-    ├── script.js
+    ├── screenshots/
+    │   ├── desktopview.jpeg
+    │   ├── mobileview.jpeg
+    │   ├── gellary.jpeg
+    │   ├── literatures.jpeg
+    │   ├── books.jpeg
+    │   └── cinema.jpeg
     ├── images/
     │   ├── image_7a4be0.jpg
     │   ├── feludar_goendagiri.jpg
     │   └── professors.png
-    ├── README.md
-    └── screenshots/
-        ├── desktopview.jpeg
-        ├── mobileview.jpeg
-        ├── gellary.jpeg
-        ├── literatures.jpeg
-        ├── books.jpeg
-        └── literatures.jpeg
-```
-
-### 🤝 Connect with Me
-
-<p align="left"> 
-  <a href="https://linkedin.com/in/tahminakhan-nipa"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a> 
-  <a href="https://github.com/TahminaKhanNipa10-Codes"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a> 
-</p>
-
-🙏 Acknowledgements
-A special thanks to Oasis Infobyte for providing this wonderful internship opportunity that helped enhance my front-end development skills!
+    ├── index.html
+    ├── style.css
+    ├── script.js
+    └── README.md
