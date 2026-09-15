@@ -34,7 +34,11 @@ This repository contains the **Level 1 - Task 3** project completed during my **
 A modern utility tool that provides instant, precise temperature conversions between Celsius, Fahrenheit, and Kelvin, wrapped in an interactive Cyber/Neon themed UI.
 
 <p align="center">
+<<<<<<< HEAD
   <img src="screenshots/main.png" alt="Temperature Converter View" width="40%">
+=======
+  <img src="screenshot/main.png" alt="Temperature Converter View" width="40%">
+>>>>>>> b5a34217b698ea03694160508c6c2ae90170e0b2
 </p>
 
 ---
@@ -72,9 +76,15 @@ A modern utility tool that provides instant, precise temperature conversions bet
 ### 📸 Screenshots
 
 <p align="center">
+<<<<<<< HEAD
   <img src="screenshots/main.png" alt="Temperature Converter View View" width="45%">
   <img src="screenshots/invalid.png" alt="Invalid View" width="45%">
   <img src="screenshots/limit.png" alt="Limit View" width="45%">
+=======
+  <img src="screenshot/main.png" alt="Main  View" width="45%">
+  <img src="screenshot/invalid.png" alt="Invalid View" width="45%">
+  <img src="screenshot/limit.png" alt="Limit View" width="45%">
+>>>>>>> b5a34217b698ea03694160508c6c2ae90170e0b2
 </p>
 
 ---
@@ -100,10 +110,11 @@ OIBSIP/
     ├── style.css
     ├── script.js
     ├── README.md
-    └── screenshots/
+    └── screenshot/
         ├── main.png
         └── invalid.png
         └── limit.png
+<<<<<<< HEAD
 ```
 🛠️ How to Run Locally
 Step 1: Clone the Repository
@@ -126,3 +137,5 @@ Simply double-click the index.html file to open it in your default web browser, 
 
 🙏 Acknowledgements
 A special thanks to Oasis Infobyte for providing this wonderful internship opportunity that helped enhance my front-end development skills!
+=======
+>>>>>>> b5a34217b698ea03694160508c6c2ae90170e0b2
