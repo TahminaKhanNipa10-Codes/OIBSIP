@@ -8,7 +8,7 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Status](https://img.shields.io/badge/Status-Completed-00C853?style=for-the-badge&logo=checkmarx&logoColor=white)
 
-> *"To measure is to know."*  
+> _"To measure is to know."_  
 > — **Lord Kelvin**
 
 </div>
@@ -19,13 +19,13 @@
 
 This repository contains the **Level 1 - Task 3** project completed during my **Web Development Internship** at **Oasis Infobyte**. The project is a sleek, responsive utility web application designed for real-time temperature conversions across multiple units.
 
-| 📋 Detail | 📌 Info |
-|:----------|:--------|
-| **Internship Period** | August 2026 |
-| **Track** | Web Development & Designing |
-| **Task** | Level 1 - Task 3 (Temperature Converter) |
-| **Technology** | HTML5, CSS3, Vanilla JavaScript |
-| **Status** | ✅ Completed |
+| 📋 Detail             | 📌 Info                                  |
+| :-------------------- | :--------------------------------------- |
+| **Internship Period** | August 2026                              |
+| **Track**             | Web Development & Designing              |
+| **Task**              | Level 1 - Task 3 (Temperature Converter) |
+| **Technology**        | HTML5, CSS3, Vanilla JavaScript          |
+| **Status**            | ✅ Completed                             |
 
 ---
 
@@ -34,7 +34,7 @@ This repository contains the **Level 1 - Task 3** project completed during my **
 A modern utility tool that provides instant, precise temperature conversions between Celsius, Fahrenheit, and Kelvin, wrapped in an interactive Cyber/Neon themed UI.
 
 <p align="center">
-  <img src="screenshots/temp-desktop.png" alt="Temperature Converter Desktop View" width="40%">
+  <img src="screenshots/main.png" alt="Temperature Converter View" width="40%">
 </p>
 
 ---
@@ -44,14 +44,14 @@ A modern utility tool that provides instant, precise temperature conversions bet
 <details>
 <summary><b>📌 Click to expand all features</b></summary>
 
-| # | Feature | Description |
-|---|---------|-------------|
-| 1 | **Real-Time Conversion** | Inputs are instantly converted as the user types using JavaScript input event listeners. |
-| 2 | **Multi-Unit Support** | Accurate conversions between Celsius (°C), Fahrenheit (°F), and Kelvin (K). |
-| 3 | **Modern Cyber UI** | Visually appealing Neon/Cyber themed design with smooth gradients and glowing effects. |
-| 4 | **Float Precision** | Handles floating-point numbers seamlessly with `toFixed()` for clean output formatting. |
-| 5 | **Input Validation** | Prevents invalid characters and ensures empty inputs reset all fields cleanly. |
-| 6 | **Fully Responsive** | Flexbox layout perfectly adapting to mobile, tablet, and desktop viewing. |
+| #   | Feature                  | Description                                                                              |
+| --- | ------------------------ | ---------------------------------------------------------------------------------------- |
+| 1   | **Real-Time Conversion** | Inputs are instantly converted as the user types using JavaScript input event listeners. |
+| 2   | **Multi-Unit Support**   | Accurate conversions between Celsius (°C), Fahrenheit (°F), and Kelvin (K).              |
+| 3   | **Modern Cyber UI**      | Visually appealing Neon/Cyber themed design with smooth gradients and glowing effects.   |
+| 4   | **Float Precision**      | Handles floating-point numbers seamlessly with `toFixed()` for clean output formatting.  |
+| 5   | **Input Validation**     | Prevents invalid characters and ensures empty inputs reset all fields cleanly.           |
+| 6   | **Fully Responsive**     | Flexbox layout perfectly adapting to mobile, tablet, and desktop viewing.                |
 
 </details>
 
@@ -72,9 +72,9 @@ A modern utility tool that provides instant, precise temperature conversions bet
 ### 📸 Screenshots
 
 <p align="center">
-  <img src="screenshots/main.png" alt="Desktop View" width="45%">
-  <img src="screenshots/invalid.png" alt="Mobile View" width="45%">
-  <img src="screenshots/limit.png" alt="Mobile View" width="45%">
+  <img src="screenshots/main.png" alt="Temperature Converter View View" width="45%">
+  <img src="screenshots/invalid.png" alt="Invalid View" width="45%">
+  <img src="screenshots/limit.png" alt="Limit View" width="45%">
 </p>
 
 ---
@@ -92,6 +92,7 @@ A modern utility tool that provides instant, precise temperature conversions bet
 ---
 
 ### 📁 Folder Structure
+
 ```text
 OIBSIP/
 └── WebDev-L1-TemperatureConverter/
@@ -103,3 +104,25 @@ OIBSIP/
         ├── main.png
         └── invalid.png
         └── limit.png
+```
+🛠️ How to Run Locally
+Step 1: Clone the Repository
+
+git clone [https://github.com/TahminaKhanNipa10-Codes/OIBSIP.git](https://github.com/TahminaKhanNipa10-Codes/OIBSIP.git)
+
+Step 2: Navigate to the Project Directory
+
+cd OIBSIP/WebDev-L1-TemperatureConverter/
+
+Step 3: Open the Project
+Simply double-click the index.html file to open it in your default web browser, or use an extension like Live Server in VS Code.
+
+### 🤝 Connect with Me
+
+<p align="left"> 
+  <a href="https://linkedin.com/in/tahminakhan-nipa"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a> 
+  <a href="https://github.com/TahminaKhanNipa10-Codes"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a> 
+</p>
+
+🙏 Acknowledgements
+A special thanks to Oasis Infobyte for providing this wonderful internship opportunity that helped enhance my front-end development skills!

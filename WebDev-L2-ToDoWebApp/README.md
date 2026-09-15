@@ -30,9 +30,36 @@ This repository contains the **Level 2 - Task 3** project completed during my **
 
 ### ✨ Key Features
 
-- **Data Persistence:** Utilizes browser `LocalStorage` so tasks remain saved even after a refresh.
-- **Inline Editing & Timestamps:** Users can edit tasks directly, and the app tracks exactly when a task was added or completed.
-- **Elite UI/UX:** Features a premium dark mode aesthetic with soft gold glowing accents, custom badges, and smooth transitions.
+- **Data Persistence:** Utilizes browser `LocalStorage` so tasks remain saved even after a page refresh.
+- **Full CRUD Operations:** Users can easily Add, Read, Update (Inline Editing), and Delete tasks.
+- **Smart Tracking & Timestamps:** The app dynamically tracks exactly when a task was added or marked as completed.
+- **Elite UI/UX:** Features a premium dark mode aesthetic with soft gold glowing accents, custom badges, and smooth interactive transitions.
+
+---
+
+### 📸 Screenshots
+
+<p align="center">
+  <img src="screenshots/TaskCompleted.jpeg" alt="To-Do App Task Completed" width="100%">
+</p>
+<p align="center">
+  <img src="screenshots/pending.jpeg" alt="To-Do App Pending Tasks" width="100%">
+</p>
+<p align="center">
+  <img src="screenshots/empty.jpeg" alt="To-Do App empty view" width="100%">
+</p>
+
+_(Note: The images above showcase the application's interface and task management state)._
+
+---
+
+### 🎥 Video Demo
+
+[▶️ **Click Here to Watch the To-Do WebApp Demo Video**](https://github.com/TahminaKhanNipa10-Codes/OIBSIP/raw/main/WebDev-L2-ToDoWebApp/ToDoWebApp.mp4)
+
+_(Note: Click the link above to view the raw video presentation of the project)._
+
+---
 
 ### 🌐 Live Demo
 
@@ -42,9 +69,36 @@ This repository contains the **Level 2 - Task 3** project completed during my **
   </a>
 </p>
 
-### 🤝 Connect with Me
+---
 
-<p align="left"> 
-  <a href="https://linkedin.com/in/tahminakhan-nipa"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a> 
-  <a href="https://github.com/TahminaKhanNipa10-Codes"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a> 
-</p>
+### 📂 Folder Structure
+
+```text
+OIBSIP/
+└── WebDev-L2-ToDoWebApp/
+    ├── index.html
+    ├── style.css
+    ├── script.js
+    ├── screenshots/
+    │   ├── TaskCompleted.jpeg
+    │   └── pending.jpeg
+    │   └── emptyTask.jpeg
+    ├── ToDoWebApp.mp4
+    └── README.md
+```
+
+🛠️ How to Run Locally
+Step 1: Clone the Repository
+
+git clone [https://github.com/TahminaKhanNipa10-Codes/OIBSIP.git](https://github.com/TahminaKhanNipa10-Codes/OIBSIP.git)
+
+Step 2: Navigate to the Project Directory
+
+cd OIBSIP/WebDev-L2-ToDoWebApp/
+
+Step 3: Open the Project
+Simply double-click the index.html file to open it in your default web browser, or use an extension like Live Server in VS Code.
+
+🤝 Connect with Me
+🙏 Acknowledgements
+A special thanks to Oasis Infobyte for providing this wonderful internship opportunity that helped enhance my front-end development skills!
