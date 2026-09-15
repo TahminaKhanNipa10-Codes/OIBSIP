@@ -40,13 +40,13 @@ This repository contains the **Level 2 - Task 3** project completed during my **
 ### 📸 Screenshots
 
 <p align="center">
-  <img src="screenshots/taskCompleted.jpeg" alt="To-Do App Task Completed" width="30%">
+  <img src="screenshots/taskCompleted.jpeg" alt="To-Do App Task Completed" width="40%">
 </p>
 <p align="center">
-  <img src="screenshots/pending.jpeg" alt="To-Do App Pending Tasks" width="30%">
+  <img src="screenshots/pending.jpeg" alt="To-Do App Pending Tasks" width="40%">
 </p>
 <p align="center">
-  <img src="screenshots/emptyTask.jpeg" alt="To-Do App empty view" width="30%">
+  <img src="screenshots/emptyTask.jpeg" alt="To-Do App empty view" width="40%">
 </p>
 
 _(Note: The images above showcase the application's interface and task management state)._
