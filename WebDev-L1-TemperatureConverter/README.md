@@ -34,7 +34,7 @@ This repository contains the **Level 1 - Task 3** project completed during my **
 A modern utility tool that provides instant, precise temperature conversions between Celsius, Fahrenheit, and Kelvin, wrapped in an interactive Cyber/Neon themed UI.
 
 <p align="center">
-  <img src="screenshots/temp-desktop.png" alt="Temperature Converter Desktop View" width="40%">
+  <img src="screenshot/main.png" alt="Temperature Converter View" width="40%">
 </p>
 
 ---
@@ -72,9 +72,9 @@ A modern utility tool that provides instant, precise temperature conversions bet
 ### 📸 Screenshots
 
 <p align="center">
-  <img src="screenshots/main.png" alt="Desktop View" width="45%">
-  <img src="screenshots/invalid.png" alt="Mobile View" width="45%">
-  <img src="screenshots/limit.png" alt="Mobile View" width="45%">
+  <img src="screenshot/main.png" alt="Main  View" width="45%">
+  <img src="screenshot/invalid.png" alt="Invalid View" width="45%">
+  <img src="screenshot/limit.png" alt="Limit View" width="45%">
 </p>
 
 ---
@@ -99,7 +99,7 @@ OIBSIP/
     ├── style.css
     ├── script.js
     ├── README.md
-    └── screenshots/
+    └── screenshot/
         ├── main.png
         └── invalid.png
         └── limit.png
