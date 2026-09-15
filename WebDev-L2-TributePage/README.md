@@ -123,3 +123,20 @@ OIBSIP/
     ├── style.css
     ├── script.js
     └── README.md
+---  
+```
+ 🛠️ How to Run Locally
+Step 1: Clone the Repository
+
+git clone [https://github.com/TahminaKhanNipa10-Codes/OIBSIP.git](https://github.com/TahminaKhanNipa10-Codes/OIBSIP.git)
+
+Step 2: Navigate to the Project Directory
+
+cd OIBSIP/WebDev-L2-TributePage/
+
+Step 3: Open the Project
+
+Simply double-click the index.html file to open it in your default web browser, or use an extension like Live Server in VS Code.
+
+🙏 Acknowledgements
+A special thanks to Oasis Infobyte for providing this wonderful internship opportunity that helped enhance my front-end development and UI design skills!
