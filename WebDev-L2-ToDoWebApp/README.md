@@ -40,13 +40,13 @@ This repository contains the **Level 2 - Task 3** project completed during my **
 ### 📸 Screenshots
 
 <p align="center">
-  <img src="screenshots/TaskCompleted.jpeg" alt="To-Do App Task Completed" width="100%">
+  <img src="screenshots/taskCompleted.jpeg" alt="To-Do App Task Completed" width="100%">
 </p>
 <p align="center">
   <img src="screenshots/pending.jpeg" alt="To-Do App Pending Tasks" width="100%">
 </p>
 <p align="center">
-  <img src="screenshots/empty.jpeg" alt="To-Do App empty view" width="100%">
+  <img src="screenshots/emptyTask.jpeg" alt="To-Do App empty view" width="100%">
 </p>
 
 _(Note: The images above showcase the application's interface and task management state)._
@@ -80,7 +80,7 @@ OIBSIP/
     ├── style.css
     ├── script.js
     ├── screenshots/
-    │   ├── TaskCompleted.jpeg
+    │   ├── taskCompleted.jpeg
     │   └── pending.jpeg
     │   └── emptyTask.jpeg
     ├── ToDoWebApp.mp4
